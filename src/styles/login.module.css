@@ -1,0 +1,55 @@
+body {
+     margin: 0;
+     top: 50%;
+     left: 50%;
+     min-height: auto;
+     /* background-image: url("../assets/Images/img3.jpeg"); */
+
+}
+
+.mainContainer {
+     background-color: gainsboro;
+     padding: 20px;
+     justify-content: center;
+     width: 500px;
+     height: 600px;
+     border-radius: 25px;
+}
+
+h2 {
+     color: black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 800;
+     font-size: 35px;
+     text-align: center;
+     top: 50%;
+     left: 50%;
+}
+
+p {
+     font-family: cursive;
+     color: black;
+     font-size: 22px;
+     text-align: center;
+}
+
+.input {
+     width: 300px;
+     padding: 15px;
+     border-radius: 15px;
+     margin-top: 20px;
+     margin-left: 80px;
+     background-color: aliceblue;
+}
+
+.input::placeholder {
+     font-size: 18px;
+     font-family: cursive;
+}
+
+.btn {
+     padding: 12px;
+     margin-top: 28px;
+     width: 320px;
+     margin-left: 80px;
+}
